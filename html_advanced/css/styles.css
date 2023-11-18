@@ -1,7 +1,7 @@
 body
 {
     border: 7px solid black;
-    height: 100vh;
+    height: inherit;
     padding: 10px;
 }
 
@@ -38,7 +38,7 @@ justify-content: center;
 #nav
 {
     width: 335px;
-    padding:0%;
+    padding:2px;
     display: flex;
     gap: 10px;
     justify-content: center;
@@ -49,7 +49,211 @@ justify-content: center;
 {
     border:1px solid red;
     width: 100px;
+    display:flex;
+    justify-content: center;
+}
+
+main
+{
+border: 4px solid black;
+height: inherit;
+margin-top: 10px;
+padding: 5px;
+}
+
+.First
+{
+    border: 2px solid black;
+    /*width: auto;*/
+    margin: 15px;
+    margin-top: 2px;
+    padding:5px;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.First #SUB1 
+{
+    /* border: 1px solid black; */
+    width: inherit;
+    padding: 3px;
+    padding-top: 0;
+    margin: 5px;
     display: flex;
     align-items: center;
+    justify-content: center;    
+}
+
+.First #SUB1 div
+{
+    border: 1px solid black;
+    padding-top: 0;
+    justify-content: center; 
+}
+
+.First #SUB1 div h1
+{
+    border: 1px solid blue;
+    width: 150px;
+    height: 30px;
+    margin: 6px;
+    display:flex;
+    padding-top: 5px;
+    justify-content: center; 
+}
+
+.First #SUB1 div p
+{
+    border: 1px solid purple;
+    width: 150px;
+    height: 30px;
+    margin: 6px;
+    display:flex;
+    padding-top: 5px;
+    justify-content: center; 
+}
+
+.First #SUB1 div button
+{
+    border: 1px solid orange;
+    width: 150px;
+    height: 30px;
+    margin: 6px;
+    display:flex;
+    padding-top: 5px;
+    justify-content: center; 
+}
+
+.First #SUB2
+{
+    border: 1px solid black;
+    padding: 5px;
+    padding-right: 10px;
+    gap:2px;
+    margin-top: 0;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.First #SUB2 #A 
+{
+    /*border: 1px solid black;*/
+    width: 50;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.First #SUB2 #A h4
+{
+    border: 1px solid blue;
+    width: 150px;
+    height: 30px;
+    margin: 0;
+    display:flex;
+    padding-top: 5px;
+    justify-content: center; 
+}
+
+.First #SUB2b
+{
+    border: 2px solid black;
+    margin-top: 5px;
+    gap: 5px;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    padding: 0;
+    justify-content:center;
+    align-items: center;
+    justify-items:center; 
+}
+
+.First #SUB2b #B
+{
+    border: 1px solid black;
+    display: inline-block;
+    margin: 5px;
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.First #SUB2b #C
+{
+    border: 1px solid black;
+    display: inline-block;
+    margin: 5px;
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.First #SUB2b #D
+{
+    border: 1px solid black;
+    display: inline-block;
+    margin: 5px;
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.First #SUB2b #E
+{
+    border: 1px solid black;
+    display: inline-block;
+    margin: 5px;
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.First #SUB2b img
+{
+    border: 1px solid green;
+    width: 105px;
+    height: 30px;
+    margin: 3px;
+    display:flex;
+    padding-top: 3px;
+    padding-left: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.First #SUB2b h4
+{
+    border: 1px solid blue;
+    width: 147px;
+    height: 30px;
+    margin: 3px;
+    display:flex;
+    padding-top: 3px;
+    justify-content: center;
+}
+
+.First #SUB2b p
+{
+    border: 1px solid purple;
+    width: 147px;
+    height: 30px;
+    margin: 3px;
+    display:flex;
+    padding-top: 3px;
     justify-content: center;
 }
