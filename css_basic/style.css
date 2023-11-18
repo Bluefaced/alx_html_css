@@ -2,6 +2,7 @@ body
 {
     display:flex;
     flex-direction: column;
+    background-color: plum;
 }
 
 main
@@ -15,10 +16,28 @@ main article
 {
     flex:2;
     overflow-y: auto;
+    background-color:pink;
+}
+
+main article table
+{
+    border: 1px solid black;
+    width: 300px;
+}
+
+main article table thead
+{
+    border: 1px solid black;
+}
+
+main article table tbody
+{
+    padding-left: 20px;
 }
 
 main aside
 {
     flex:1;
     overflow-y: auto;
+    background-color: lightskyblue;
 }
