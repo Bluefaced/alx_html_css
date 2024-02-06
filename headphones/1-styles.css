@@ -1,0 +1,107 @@
+/*Reset CSS Styling*/
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+  --color:white;
+  --font-size-s: 5px;
+  --font-size-m: 15px;
+  --font-size-b: 25px;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    width: auto;
+    background-image: url('IMAGES/headphones_hero_1.jpg');
+    color: var(--color);
+    padding-top: 20px;
+    cursor:default;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+#nav{
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    gap: 20px;
+    font-size: var(--font-size-m);
+    cursor: pointer;
+}
+
+#nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#nav h1:hover{
+    color: red;
+    margin: 0;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 17%;
+}
+
+.title h1{
+    margin-bottom: 0;
+}
+
+.title p{
+    margin: 0;
+    margin-top: 0;
+}
+
+#click{
+    display: flex;
+    justify-content: center;
+    margin: 3%;
+}
+
+#click button{
+   background-color: red;
+   width:fit-content;
+   padding: 15px;
+   padding-left: 30px;
+   padding-right: 30px;
+   color: var(--color);
+   font-size: large;
+   border-radius: 15px;
+   cursor: pointer;
+   opacity: 0.9;
+}
+
+#descrip{
+    display: flex;
+    justify-content: center;
+    margin: 4%;
+}
+
+#descrip p{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 550px;
+    margin-top: 0;
+    margin-bottom: 4%;
+    text-align: center;
+}
+
